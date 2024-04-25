@@ -1,0 +1,49 @@
+.container-header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height:10vh;
+    position:fixed;
+    
+}
+.logo-name a{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.containerButtons{
+    display: flex;
+    flex-direction: row;
+    border:none;
+    background-color:transparent;
+    padding:0;
+    margin: 0 10px;
+    color:white;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+a:hover{
+    color:#202027;
+}
+
+@media (max-device-width:480px){
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:86%;
+        padding-left: 2%;
+        overflow: hidden;
+
+
+}    
+}

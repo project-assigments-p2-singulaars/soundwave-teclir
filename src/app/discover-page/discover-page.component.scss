@@ -1,0 +1,101 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+.discover-container{
+    display:flex;
+    flex-direction: row;
+    height: 81%;
+    gap: 8rem;
+
+}
+.left-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h1{
+    font-weight: normal;
+}
+.icons-container{
+        display: flex;
+        width: 50%;
+        justify-content: start;
+        justify-content: space-around;
+    }
+    
+    .card {
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        width: 90px; 
+        height: 80px;
+        background-color: #202027;
+        
+    }
+    
+    .card img {
+        width: 30px; 
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: .4rem;
+        
+    }
+
+.album-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // margin-left: 1rem;
+    
+    
+}
+
+.album{
+    height:37vh;
+    width: 25vw;
+}
+
+@media (max-width:480px){
+    .discover-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    p{
+        margin: 0 8%;
+        margin-top: 4%;
+    }
+
+    .album{
+        height: 80%;
+        width: 80%;
+        display:flex;
+        justify-content: center;
+    }
+    .album-container{
+        display:flex;
+        justify-content: center;
+    }
+    .icons-container{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        width:400px;
+    }
+
+    h1{
+        margin-left: 8%;
+        font-size: 2.2rem;
+    }
+}

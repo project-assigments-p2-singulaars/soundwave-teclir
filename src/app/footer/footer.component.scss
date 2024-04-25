@@ -1,0 +1,42 @@
+
+footer{
+    display: flex;
+    background-color: #202027;
+    width:100%;
+    color:white;
+    bottom:0;
+    position: fixed;
+    left:0;
+}
+.info p{
+    width:6rem;
+}
+.info{
+    display: flex;
+    gap:2rem;
+    color:white;
+    text-align: center;
+    align-items: center;
+    margin-left: 19%;
+}
+.socialmedia{
+display:flex;
+flex-direction: row;
+align-items: flex-end;
+}
+.contact{
+    display: flex;
+    gap: 8%;
+    margin-left: 30%;
+    align-items: center;
+}
+.sociallogo{
+    width: 10%;
+    align-items: center;
+    
+}
+
+
+
+
+
