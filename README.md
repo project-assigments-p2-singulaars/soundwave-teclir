@@ -43,7 +43,7 @@ Han contactado contigo por tu reputación como maquetadora web, y te piden que l
 
 ## Entregables
 
-- Repositorio de GitHub. [Clique aquí](https://github.com/project-assigments-p2-singulaars/soundwave-teclir)
+- Repositorio de GitHub. [Clique aquí](https://github.com/project-assigments-p2-singulaars/soundwave-teclir/tree/master)
 - Enlace del despliegue. [Clique aquí](https://soundwave-by-tecla.netlify.app)
 
 ## Modalidad
