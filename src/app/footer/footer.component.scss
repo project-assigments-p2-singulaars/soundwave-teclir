@@ -22,21 +22,50 @@ footer{
 .socialmedia{
 display:flex;
 flex-direction: row;
-align-items: flex-end;
+align-items: center;
+gap:0.1rem;
 }
 .contact{
     display: flex;
+    flex-direction: row;
     gap: 8%;
     margin-left: 30%;
     align-items: center;
 }
 .sociallogo{
-    width: 10%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    width: 25%;
     
 }
 
+@media screen and (max-width: 430px) {
+    .info p {
+        width: 4rem;
+        font-size: 1rem;
+    }
 
+    .info {
+        flex-direction: row; 
+        align-items: flex-start; 
+        gap: 0.5rem; 
+        margin: 0; 
+        margin-right: 1rem;
 
+    }
 
+    .contact {
+        flex-direction: row; 
+        gap: 0.1rem; 
+        align-items: center; 
+        margin: 0;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .sociallogo {
+        margin-right: 0.5rem; 
+    }
+}
 

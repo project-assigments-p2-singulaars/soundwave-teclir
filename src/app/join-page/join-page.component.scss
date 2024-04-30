@@ -61,6 +61,7 @@ input[type="password"] {
     border: 1px solid #2F3253 ;
     border-radius: 4px;
     width: 18rem;
+    color: #fff;
 }
 
 button {
@@ -101,11 +102,25 @@ button:hover {
     position:absolute; 
 }
 
-@media (min-device-width:480px){
+@media screen and (max-width: 430px) {
     .container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-}    
+    
+} 
+strong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+}
+
